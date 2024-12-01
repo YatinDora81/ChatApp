@@ -23,7 +23,7 @@ const App = () => {
         let obj
         try {
           obj = JSON.parse(e.data)
-          console.log(obj);
+          // console.log(obj);
 
         } catch (error) {
           console.log("Error at parsing the obj ", error);
